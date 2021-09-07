@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+main{
+    background-color: #128C7E;
+    padding: 25px 1em;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_icon{
+    width: 40px;
+
+}
+.main_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.whatsapp_logo{
+    width: 100px;
+   
+}
+h2{
+    text-align: center;
+    padding: 25px;
+}
+main p{
+    line-height: 24px;
+    text-align: center;
+    width: 75%;
+    color: white;
+}
+button{
+    border: none;
+    background-color: #25D366;
+    color: white;
+    padding: 20px 25px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 60px;
+    margin: 25px ;
+}
+
+/* section start here */
+
+#section_one{
+    background-color: rgb(148, 148, 148);
+    padding: 10px 2em;
+    padding-bottom: 0;
+    /* position: relative;
+    top: -270px; */
+}
+section p{
+    text-align: center;
+}
+p{
+    margin: 25px 0;
+}
+span{
+    color: skyblue;
+}
+
+
+/* section ends here */
+
+/* section two starts here */
+
+#section_two{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    opacity: .8;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    background-color: #77D7C8;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    
+}
+#section_two img{
+    width: 100px;
+}
+.circle_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_two p{
+    text-align: center;
+}
+.main_btn{
+    background-color: white;
+    padding: 2em auto;
+    display: flex;
+    justify-content: center;
+}
+.EP{
+    background-color: white;
+    color: #25D366;
+    border: 2px solid #25D366;
+}
+
+
+/* section two ends here */
+
+/* footer starts here */
+
+    footer{
+        padding: 2em 2em;
+        background-color: black;
+       
+
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    footer h3{
+        margin-bottom: 1.5em;
+    }   
+    li{
+        margin-bottom: 1em;
+        list-style: none;
+        list-style-position: inside;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+
+   
+/* footer ends here */
+
+/* final starts*/
+
+    .final_footer{
+        background-color: rgb(34, 33, 33);
+        color: white;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+
+    .final_footer p, .final_footer h3{
+        margin: 0;
+        padding: 10px;
+    }
+
+/* final ends */
