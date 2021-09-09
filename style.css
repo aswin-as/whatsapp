@@ -172,3 +172,9 @@ span{
     }
 
 /* final ends */
+
+#info{
+    color: black;
+    padding: 8px;
+    margin: 0;
+}
